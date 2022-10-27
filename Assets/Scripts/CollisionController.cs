@@ -6,15 +6,10 @@ public class CollisionController : MonoBehaviour
 {
     bool hasPackage = false;
 
-    [SerializeField]
-    private float destroyDelay = 0.2f;
+    [SerializeField] private float destroyDelay = 0.2f;
+    [SerializeField] private Color32 packageColor = new Color32 (1,1,1,1); 
+    [SerializeField] private Color32 originalColor = new Color32 (1,1,1,1);
 
-    [SerializeField]
-    private Color32 packageColor = new Color32 (1,1,1,1);
-
-    
-    [SerializeField]
-    private Color32 originalColor = new Color32 (1,1,1,1);
 
     SpriteRenderer spriteRenderer;
 
