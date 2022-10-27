@@ -1,0 +1,11 @@
+{
+  "name": "delivery-driver",
+  "version": "1.0.0",
+  "description": "Delivery Driver game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Salome Aristizabal Giraldo <https://github.com/salitomeyo> (salitomeyo16@gmail.com)",
+  "license": "ISC"
+}
